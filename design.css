@@ -1,0 +1,76 @@
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-btn {
+    background-color: #27bfe6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tab-btn:hover {
+    background-color: #1a8da8;
+    transform: translateY(-2px);
+}
+
+.tab-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(39, 191, 230, 0.5);
+}
+
+.tab-btn.active {
+    background-color: #1a8da8; /* Cor azul escuro */
+}
+
+/* Estilização das imagens */
+.img-fluid, .content-img {
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para hover */
+    width: 100%; /* Largura máxima */
+    height: auto; /* Altura automática */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Efeito de hover para as imagens */
+.img-fluid:hover, .content-img:hover {
+    transform: scale(1.05); /* Aumenta um pouco a imagem */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+/* Estilização adicional para imagens em containers */
+.container-fluid img, .container img {
+    max-width: 100%; /* Largura máxima */
+    height: auto; /* Altura automática */
+}
+
+/* Adiciona borda sutil para imagens */
+.img-fluid, .content-img {
+    border: 2px solid #27bfe6; /* Borda azul */
+    padding: 5px; /* Espaçamento interno */
+}
+/* Estilização das imagens dentro da classe col-lg-6 col-md-5 col-sm-7 */
+.col-lg-6.col-md-5.col-sm-7 img {
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para hover */
+    width: 95%; /* Largura de 95% */
+    height: auto; /* Altura automática */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border: 2px solid #27bfe6; /* Borda azul */
+    padding: 5px; /* Espaçamento interno */
+}
+
+/* Efeito de hover para as imagens */
+.col-lg-6.col-md-5.col-sm-7 img:hover {
+    transform: scale(1.05); /* Aumenta um pouco a imagem */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
