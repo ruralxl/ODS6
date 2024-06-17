@@ -74,3 +74,7 @@
     transform: scale(1.05); /* Aumenta um pouco a imagem */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
 }
+
+.info {
+    margin-left: 5%;
+}
